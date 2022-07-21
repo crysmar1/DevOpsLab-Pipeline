@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-  - node
+- node
 sudo: false
 script:
-  - npm test
+- npm test
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_KEY
+    secure: a0S4DCKqAo2F4LxBfeWcEoR6OTEvFXQpV3j73AUpRkjFOORltr+gNhQRitZjaqFpx2ocho3+f3AvS3Ym9WeDQBqh/7vDQcj6JnfFQ2rnp24DZehsdcjjg7LxzCgIpxv/oLlcRY0Q9PlNr4CSfGE4CyHG9FegaMAeJllst++Y83EYt+T8LWVpRv6dDTs3clCtBgZB1xcsPl884mL9uWAXpORrSX41FToPc+opUZRMQfua4M8nSzVCJuMspzpJ6jaW46zbCIA1ipJxIwzHx/tHX1D4DjIvTmmdH+KEIVbnGWo38r7pzmgnmHzZ3EE5RCoAvHPylRdv4U5mn1GtTPYzF+gweyoDMaVZDWCgeO+E7kv2UY++aFHqR3kUlrEGSlV1Kz+yVvCvQP4+jPLXJqhwo/Alk6qk7j5yGU0r+aazfuSS9+zbokVuVtyLE23sJkmdMvy9sXYmYopmc9TA2HsOZ+O+lT7Y7HTyjnympwiBz0D14+RY9Ssku4m3He/7w+510IMEF7uDlZDVH8sgh9i0nkcxfbKG/Nzh28SIWQ2DruIxclIJQTUg7JMxfXJjdm6v1P0+O3DPLizQce0flwYw2TW8PT8bw6rc33Glq1jSu15EU7ZtmE9ZcoazkDRHoPTAUMAnqrIW2nnca0ncfbnn49aELSacY/2AvQTtjKSUYlg=
   app: auladevops-pipeline
   edge: true
