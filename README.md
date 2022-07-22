@@ -12,7 +12,7 @@ DevOps na Prática - Criando uma Pipeline do Zero
 
 <!-- Insira aqui a Flag com sua URL do Travis -->
 
-[![Build Status](https://app.travis-ci.com/crysmar1/challenge-Oracle-ONE.svg?branch=main)](https://app.travis-ci.com/crysmar1/challenge-Oracle-ONE)
+[![Build Status](https://app.travis-ci.com/crysmar1/DevOpsLab-Pipeline.svg?branch=master)](https://app.travis-ci.com/crysmar1/DevOpsLab-Pipeline)
 
 <p  align="center">
     <a  href="#-o-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
